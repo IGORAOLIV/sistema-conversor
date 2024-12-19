@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "temperatura.c"
 
 // Função principal
 int main() {
@@ -26,92 +27,9 @@ int main() {
             break;
 
         case 4:
-            printf("Selecione a unidade inicial:\n");
-            printf("1. Celsius\n");
-            printf("2. Fahrenheit\n");
-            printf("3. Kelvin\n");
-
-            int inicial, final;
-            scanf("%d", &inicial);
-
-            printf("Agora digite o valor: ");
-            float valor1, valor2;
-            scanf("%f", &valor1);
-
-            printf("Agora escolha a unidade que deseja:\n");
-            switch(inicial){
-                case 1:
-                    printf("1. Fahrenheit\n");
-                    printf("2. Kelvin\n");
-
-                    scanf("%d", &final);
-
-                    switch(final){
-                        case 1:
-                            valor2 = valor1 * 1.8 + 32;
-                            printf("%.2fºC é equivalente a %.2fºF\n", valor1, valor2);
-                            break;
-
-                        case 2:
-                            valor2 = valor1 + 273;
-                            printf("%.2fºC é equivalente a %.2fºK\n", valor1, valor2);
-                            break;
-                        
-                        default:
-                            printf("Opção inválida. Tente novamente.\n");
-                    }
-                    break;
-
-                case 2:
-                    printf("1. Celsius\n");
-                    printf("2. Kelvin\n");
-
-                    scanf("%d", &final);
-
-                    switch(final){
-                        case 1:
-                            valor2 = (valor1-32)/1.8;
-                            printf("%.2fºF é equivalente a %.2fºC\n", valor1, valor2);
-                            break;
-
-                        case 2:
-                            valor2 = (valor1-32)/1.8 + 273;
-                            printf("%.2fºF é equivalente a %.2fºK\n", valor1, valor2);
-                            break;
-                        
-                        default:
-                            printf("Opção inválida. Tente novamente.\n");
-                    }
-                    break;
-                
-                case 3:
-                    printf("1. Celsius\n");
-                    printf("2. Fahrenheit\n");
-
-                    scanf("%d", &final);
-
-                    switch(final){
-                        case 1:
-                            valor2 = valor1 - 273;
-                            printf("%.2fºK é equivalente a %.2fºC\n", valor1, valor2);
-                            break;
-
-                        case 2:
-                            valor2 = (valor1 - 273)*1.8 + 32;
-                            printf("%.2fºK é equivalente a %.2fºF\n", valor1, valor2);
-                            break;
-                        
-                        default:
-                            printf("Opção inválida. Tente novamente.\n");
-                    }
-                    break;
-
-                default:
-                    printf("Opção inválida. Tente novamente.\n");
-            }
-
-
+            converterTemperatura();
             break;
+            
         case 5:
             printf("Saindo do programa. Até mais!\n");
             return 0;
