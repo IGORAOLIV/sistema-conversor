@@ -22,9 +22,11 @@ void converterVelocidade(){
     switch (option) {
 //após isso o usuario informara o valor dentro do caso escolhido
         case 1:
-                    printf("Digite o valor a ser convertido: ");
-                    scanf("%f", &valor);   
-                    resultado = valor / 3.6;
+            printf("Digite o valor a ser convertido: ");
+            scanf("%f", &valor);   
+            resultado = valor / 3.6;
 //Após isso o valor será caculado
+            printf("%.2f km/h = %.2f m/s\n", valor, resultado);
+//E o seu resultado será exibido aqui
     }
 }
