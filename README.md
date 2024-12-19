@@ -57,7 +57,7 @@ Os integrantes do grupo trabalharam em conjunto para implementar as diferentes f
   - Guilherme Campos
   - Aulo Cezar
   - Maria Clara Oliveira Durães
-  - [Preencher Nome]
+  - Diego dos Santos Fonseca
   - [Preencher Nome]
   - [Preencher Nome]
   - [Preencher Nome]
