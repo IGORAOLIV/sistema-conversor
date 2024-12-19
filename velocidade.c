@@ -19,4 +19,12 @@ void converterVelocidade(){
     printf("Opção: ");
     scanf("%d", &option);
 //A operação será definida aparti da opção que você escolher de 1 a 7.
+    switch (option) {
+//após isso o usuario informara o valor dentro do caso escolhido
+        case 1:
+                    printf("Digite o valor a ser convertido: ");
+                    scanf("%f", &valor);   
+                    resultado = valor / 3.6;
+//Após isso o valor será caculado
+    }
 }
