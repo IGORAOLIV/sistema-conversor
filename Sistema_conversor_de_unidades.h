@@ -5,8 +5,33 @@
 
 void conversor_de_unidades_SI()
 {
+    int escolha;
+    double valor;
 
-    int valor, escolha;
+    printf("Conversor de Unidades\n");
+    printf("1. Metros para Centímetros\n");
+    printf("2. Metros para milímetros\n");
+    printf("3. Centímetros para Metros\n");
+    printf("Escolha uma conversão (1-3): ");
+    scanf("%d", &escolha);
+
+    printf("Digite o valor para converter: ");
+    scanf("%lf", &valor);
+
+    switch (escolha)
+    {
+    case 1:
+        metros_para_centimetros(valor);
+        break;
+    case 2:
+        metros_para_quilometros(valor);
+        break;
+    case 3:
+        quilometros_para_metros(valor);
+        break;
+    default:
+        printf("Escolha inválida!\n");
+    }
 
     switch (escolha)
     {
@@ -19,7 +44,7 @@ void conversor_de_unidades_SI()
     case 2:
 
     {
-        printf("%.2fmetros = %.2f milimetros\n", valor, valor * 1000);
+        printf("%.2fmetros = %.2f milímetros\n", valor, valor * 1000);
         break;
     }
     case 3:
