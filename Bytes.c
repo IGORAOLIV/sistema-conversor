@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "bytes.h"
 
 void converterUnidades(double valor, int unidadeOrigem, int unidadeDestino) {
     double resultado;
@@ -33,7 +34,6 @@ void converterUnidades(double valor, int unidadeOrigem, int unidadeDestino) {
     }
 
     printf("Resultado: %.2f ", resultado);
-
     switch (unidadeDestino) {
         case 1: printf("bits\n"); break;
         case 2: printf("bytes\n"); break;
