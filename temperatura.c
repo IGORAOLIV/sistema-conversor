@@ -99,5 +99,6 @@ void converterTemperatura(){    //função para converter a temperatura que o us
         default:
             printf("Opção inválida. Tente novamente.\n");
     }
+    printf("\n\n");
     return;
 }
