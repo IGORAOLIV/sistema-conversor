@@ -46,7 +46,12 @@ int main()
             printf("Opção inválida. Tente novamente.\n");
         }
 
+        if (opcao != 8)
+        {
+            system("PAUSE");
+        }
+
     } while (opcao != 8);
-    
+
     return 0;
 }
