@@ -14,7 +14,6 @@ void comprimento()
     printf("3. Centímetros para Metros\n");
     printf("Escolha uma conversão (1-3): ");
     scanf("%d", &escolha);
-
     printf("Digite o valor para converter: ");
     scanf("%lf", &valor);
 
