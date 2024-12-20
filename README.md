@@ -54,13 +54,14 @@ Os integrantes do grupo trabalharam em conjunto para implementar as diferentes f
 
 - **Integrantes:**
   - Igor Almeida Oliveira
-  - Guilherme Campos
-  - Aulo Cezar
+  - Guilherme Santos Campos
+  - Aulo Cezar Ferreira dos Anjos Filho
   - Maria Clara Oliveira Durães
   - Diego dos Santos Fonseca
-  - [Preencher Nome]
-  - [Preencher Nome]
-  - [Preencher Nome]
+  - Alex Gabriel Alves dos Santos
+  - Hemerson Caires de Souza
+  - Joscielle Santos Pereira
+  - Andréa Carolina Santos Souza
 
 ## Testes
 
