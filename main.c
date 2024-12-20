@@ -10,10 +10,11 @@ int main()
 
     system("chcp 65001 > NULL");
 
-    int opcao = menu();
+    int opcao;
     do
     {
 
+        opcao = menu();
         scanf("%d", &opcao);
 
         switch (opcao)
