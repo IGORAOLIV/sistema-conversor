@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "temperatura.c"
+#include "comprimento.h"
 
 // Função principal
 int main() {
@@ -21,7 +22,7 @@ int main() {
 
         switch (opcao) {
             case 1:
-                printf("Funcionalidade de comprimento será implementada aqui.\n");
+                comprimento();
                 break;
             case 2:
                 printf("Funcionalidade de massa será implementada aqui.\n");
