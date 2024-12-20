@@ -11,7 +11,7 @@ int main()
     system("chcp 65001 > NULL");
 
     int opcao = menu();
-    while (opcao != 8)
+    do
     {
 
         scanf("%d", &opcao);
@@ -45,6 +45,8 @@ int main()
         default:
             printf("Opção inválida. Tente novamente.\n");
         }
-    }
+
+    } while (opcao != 8);
+    
     return 0;
 }
