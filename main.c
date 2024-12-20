@@ -5,20 +5,9 @@
 
 // Função principal
 int main() {
-    int opcao=0;
+    int opcao = menu();
     while(opcao!=8){
-        // Exemplo de opções (a serem implementadas)
-        printf("Bem-vindo ao Conversor de Unidades!\n");
-        printf("Selecione uma opção para começar:\n");
-        printf("1. Converter Comprimento\n");
-        printf("2. Converter Massa\n");
-        printf("3. Converter Volume\n");
-        printf("4. Converter Temperatura\n");
-        printf("5. Converter Velocidade\n");
-        printf("6. Converter Bits & Bytes\n");
-        printf("7. Converter Área\n");
-        printf("8. Sair\n");
-
+     
         scanf("%d", &opcao);
 
         switch (opcao) {
