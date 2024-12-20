@@ -21,36 +21,21 @@ void conversor_de_unidades_SI()
     switch (escolha)
     {
     case 1:
-        metros_para_centimetros(valor);
-        break;
-    case 2:
-        metros_para_quilometros(valor);
-        break;
-    case 3:
-        quilometros_para_metros(valor);
-        break;
-    default:
-        printf("Escolha inválida!\n");
-    }
-
-    switch (escolha)
     {
-    case 1:
-    {
-        printf("%.2fmetros = %.2f centímetros\n", valor, valor * 100);
+        printf("%.2f metros = %.2f centímetros\n", valor, valor * 100);
         break;
     }
 
     case 2:
 
     {
-        printf("%.2fmetros = %.2f milímetros\n", valor, valor * 1000);
+        printf("%.2f metros = %.2f milímetros\n", valor, valor * 1000);
         break;
     }
     case 3:
 
     {
-        printf("%.2fcentímetros  = %.2fmetros\n", valor, valor / 100);
+        printf("%.2f centímetros  = %.2fmetros\n", valor, valor / 100);
         break;
     }
 
