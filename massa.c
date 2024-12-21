@@ -64,4 +64,30 @@ void converterMassa() {
                     printf("Opção inválida. Tente novamente.\n");
             }
             break;
+
+        case 3:
+            printf("1. Grama\n");
+            printf("2. Quilograma\n");
+
+            scanf("%d", &final);
+
+            switch(final){
+
+                case 1:
+                    //Grama
+                    valor2 = valor1 *1000000;
+                    printf("%.2ft é equivalente a %.2fg\n", valor1, valor2);
+                    break;
+
+                case 2:
+                    //Quilograma
+                    valor2 = valor1 * 1000;
+                    printf("%.2ft é equivalente a %.2fkg\n", valor1, valor2);
+                    break;
+
+                default:
+                    printf("Opção inválida. Tente novamente.\n");
+            }
+            printf("\n\n");
+            return;
 }
