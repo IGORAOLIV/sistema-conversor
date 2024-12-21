@@ -44,4 +44,24 @@ void converterMassa() {
         case 2:
             printf("1. Grama\n");
             printf("2. Tonelada\n");
+
+            scanf("%d", &final);
+            
+            switch(final){
+                
+                case 1:
+                    //Grama
+                    valor2 = valor1 * 1000;
+                    printf("%.2fkg é equivalente a %.2fg\n", valor1, valor2);
+                    break;
+                case 2:
+                    //Tonelada
+                    valor2 = valor1 / 1000;
+                    printf("%.2fkg é equivalente a %.2ft\n", valor1, valor2);
+                    break;
+
+                default:
+                    printf("Opção inválida. Tente novamente.\n");
+            }
+            break;
 }
