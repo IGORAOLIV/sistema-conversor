@@ -45,7 +45,7 @@ int main() {
                 printf("Saindo do programa. Até mais!\n");
                 break;
             default:
-                printf("Opção inválida. Tente novamente.\n");
+                printf("Opção inválida. Tente novamente.\n\n");
             }
     }
     return 0;

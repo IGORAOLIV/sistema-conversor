@@ -3,7 +3,7 @@
 #define TEMPERATURA_H
 
 void converterTemperatura(){    //Função para converter a temperatura que o usuário dá para temperatura que o usuário quer
-    
+    printf("\n");
     int inicial, final, loop1 = 1, loop2 = 1;
     float valor1, valor2;
     while(loop1){   //O while(loop1) serve para criar a opção de "4.Voltar"
@@ -62,7 +62,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                             break;
                         
                         default:
-                            printf("Opção inválida. Tente novamente.\n");
+                            printf("Opção inválida. Tente novamente.\n\n");
                     }
                 }
                 //-----------------------------------------------
@@ -114,7 +114,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                             break;
 
                         default:
-                            printf("Opção inválida. Tente novamente.\n");
+                            printf("Opção inválida. Tente novamente.\n\n");
                     }
                 }
                 //-----------------------------------------------
@@ -167,23 +167,23 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                             break;
 
                         default:
-                            printf("Opção inválida. Tente novamente.\n");
+                            printf("Opção inválida. Tente novamente.\n\n");
                     }
                 }
                 //-----------------------------------------------
                 //Caso o usuário retorne durante a seleção de final, loop2 = 1 permite que while(loop2) seja executado novamente caso necessário
                 loop2 = 1;
                 break;
-                
+
             case 4:
                 loop1 = 0;
                 break;
 
             default:
-                printf("Opção inválida. Tente novamente.\n");
+                printf("Opção inválida. Tente novamente.\n\n");
         }
     }
-    printf("\n\n");
+    printf("\n\n\n");
     return;
 }
 
