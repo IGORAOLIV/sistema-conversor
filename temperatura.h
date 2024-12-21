@@ -12,20 +12,19 @@ void converterTemperatura(){    //função para converter a temperatura que o us
     int inicial, final;
     scanf("%d", &inicial);
 
-    //-----------------------------------------------
-    //Usuário indica o valor
-    printf("Agora digite o valor: ");
     float valor1, valor2;
-    scanf("%f", &valor1);
-
-    //-----------------------------------------------
-    //A partir daqui o usuário escolhe qual a unidade que deseja
-    printf("Agora escolha a unidade que deseja:\n");
     switch(inicial){
         case 1:
+            //-----------------------------------------------
+            //Usuário indica o valor
+            printf("Agora digite o valor: ");
+            scanf("%f", &valor1);
+
+            //-----------------------------------------------
+            //A partir daqui o usuário escolhe qual a unidade que deseja
+            printf("Agora escolha a unidade que deseja:\n");
             printf("1. Fahrenheit\n");
             printf("2. Kelvin\n");
-
             scanf("%d", &final);
 
             switch(final){
@@ -48,9 +47,16 @@ void converterTemperatura(){    //função para converter a temperatura que o us
             break;
 
         case 2:
+            //-----------------------------------------------
+            //Usuário indica o valor
+            printf("Agora digite o valor: ");
+            scanf("%f", &valor1);
+
+            //-----------------------------------------------
+            //A partir daqui o usuário escolhe qual a unidade que deseja
+            printf("Agora escolha a unidade que deseja:\n");
             printf("1. Celsius\n");
             printf("2. Kelvin\n");
-
             scanf("%d", &final);
 
             switch(final){
@@ -73,6 +79,14 @@ void converterTemperatura(){    //função para converter a temperatura que o us
             break;
                 
         case 3:
+            //-----------------------------------------------
+            //Usuário indica o valor
+            printf("Agora digite o valor: ");
+            scanf("%f", &valor1);
+
+            //-----------------------------------------------
+            //A partir daqui o usuário escolhe qual a unidade que deseja
+            printf("Agora escolha a unidade que deseja:\n");
             printf("1. Celsius\n");
             printf("2. Fahrenheit\n");
 
