@@ -1,6 +1,7 @@
 //arquivo para definir função converterTemperatura()
 #ifndef TEMPERATURA_H
 #define TEMPERATURA_H
+#include <stdlib.h>
 
 void converterTemperatura(){    //Função para converter a temperatura que o usuário dá para temperatura que o usuário quer
     printf("\n");
@@ -39,6 +40,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                             //...Fahrenheit
                             valor2 = valor1 * 1.8 + 32;
                             printf("%.2fºC é equivalente a %.2fºF\n", valor1, valor2);
+                            system("PAUSE");
 
                             //-----------------------------------------------
                             //Permite que a execução retorne à interface principal
@@ -50,6 +52,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                             //...Kelvin
                             valor2 = valor1 + 273;
                             printf("%.2fºC é equivalente a %.2fºK\n", valor1, valor2);
+                            system("PAUSE");
 
                             //-----------------------------------------------
                             //Permite que a execução retorne à interface principal
@@ -59,6 +62,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
 
                         case 3:
                             loop2 = 0;
+                            printf("\n");
                             break;
                         
                         default:
@@ -91,6 +95,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                             //...Celsius
                             valor2 = (valor1-32)/1.8;
                             printf("%.2fºF é equivalente a %.2fºC\n", valor1, valor2);
+                            system("PAUSE");
 
                             //-----------------------------------------------
                             //Permite que a execução retorne à interface principal
@@ -102,6 +107,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                             //...Kelvin
                             valor2 = (valor1-32)/1.8 + 273;
                             printf("%.2fºF é equivalente a %.2fºK\n", valor1, valor2);
+                            system("PAUSE");
 
                             //-----------------------------------------------
                             //Permite que a execução retorne à interface principal
@@ -111,6 +117,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                         
                         case 3:
                             loop2 = 0;
+                            printf("\n");
                             break;
 
                         default:
@@ -144,6 +151,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                             //...Celsius
                             valor2 = valor1 - 273;
                             printf("%.2fºK é equivalente a %.2fºC\n", valor1, valor2);
+                            system("PAUSE");
 
                             //-----------------------------------------------
                             //Permite que a execução retorne à interface principal
@@ -155,6 +163,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                             //...Fahrenheit
                             valor2 = (valor1 - 273)*1.8 + 32;
                             printf("%.2fºK é equivalente a %.2fºF\n", valor1, valor2);
+                            system("PAUSE");
 
                             //-----------------------------------------------
                             //Permite que a execução retorne à interface principal
@@ -164,6 +173,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                         
                         case 3:
                             loop2 = 0;
+                            printf("\n");
                             break;
 
                         default:
@@ -183,7 +193,6 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                 printf("Opção inválida. Tente novamente.\n\n");
         }
     }
-    printf("\n\n\n");
     return;
 }
 
