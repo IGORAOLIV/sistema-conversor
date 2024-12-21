@@ -75,7 +75,7 @@ void converterMassa() {
 
                 case 1:
                     //Grama
-                    valor2 = valor1 *1000000;
+                    valor2 = valor1 * 1000000;
                     printf("%.2ft é equivalente a %.2fg\n", valor1, valor2);
                     break;
 
@@ -90,4 +90,5 @@ void converterMassa() {
             }
             printf("\n\n");
             return;
+}
 }
