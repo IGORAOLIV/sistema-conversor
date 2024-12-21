@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "temperatura.c"
+#include "temperatura.h"
 
 // Função principal
 int main() {
