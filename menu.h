@@ -22,6 +22,8 @@ int menu()
     printf("8. Sair\n");
     printf("Sua escolha: ");
 
+    scanf("%d", &escolha);
+
     return escolha;
 }
 
