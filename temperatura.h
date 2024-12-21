@@ -14,6 +14,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
         printf("2. Fahrenheit\n");
         printf("3. Kelvin\n");
         printf("4. Voltar\n");
+        printf("Sua escolha: ");
         scanf("%d", &inicial);
 
         switch(inicial){
@@ -22,6 +23,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                 //Usuário indica o valor
                 printf("Agora digite o valor: ");
                 scanf("%f", &valor1);
+                printf("\n");
 
 
                 while(loop2){   //O while(loop2) serve para criar a opção de "3.Voltar"
@@ -31,6 +33,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                     printf("1. Fahrenheit\n");
                     printf("2. Kelvin\n");
                     printf("3. Voltar\n");
+                    printf("Sua escolha: ");
                     scanf("%d", &final);
 
                 
@@ -79,6 +82,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                 //Usuário indica o valor
                 printf("Agora digite o valor: ");
                 scanf("%f", &valor1);
+                printf("\n");
 
                 while(loop2){   //O while(loop2) serve para criar a opção de "3.Voltar"
                     //-----------------------------------------------
@@ -87,6 +91,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                     printf("1. Celsius\n");
                     printf("2. Kelvin\n");
                     printf("3. Voltar\n");
+                    printf("Sua escolha: ");
                     scanf("%d", &final);
 
                     switch(final){
@@ -134,6 +139,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                 //Usuário indica o valor
                 printf("Agora digite o valor: ");
                 scanf("%f", &valor1);
+                printf("\n");
 
 
                 while(loop2){   //O while(loop2) serve para criar a opção de "3.Voltar"
@@ -143,6 +149,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                     printf("1. Celsius\n");
                     printf("2. Fahrenheit\n");
                     printf("3. Voltar\n");
+                    printf("Sua escolha: ");
                     scanf("%d", &final);
 
                     switch(final){
