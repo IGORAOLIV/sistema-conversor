@@ -26,4 +26,22 @@ void converterMassa() {
             switch(final){
 
                 case 1:
+                    //Quilograma
+                    valor2 = valor1 / 1000;
+                    printf("%.2fg é equivalente a %.2fkg\n", valor1, valor2);
+                    break;
+
+                case 2:
+                    //Tonelada
+                    valor2 = valor1 / 1000000;
+                    printf("%.2fg é equivalente a %.2ft\n", valor1, valor2);
+                    break;
+
+                default:
+                    printf("Opção inválida. Tenten novamente.\n");
+            }
+            break;
+        case 2:
+            printf("1. Grama\n");
+            printf("2. Tonelada\n");
 }
