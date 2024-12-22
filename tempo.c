@@ -14,6 +14,6 @@ void converterTempo(){
        printf("5. Segundos para Horas\n");
        printf("6. Segundos para Minutos\n");
        printf("Escolha uma conversão (1-6): ");
-    scanf("%d", &escolha);
-    printf("Digite o valor para converter: ");
-    scanf("%lf", &valor);
+       scanf("%d", &escolha);
+       printf("Digite o valor para converter: ");
+       scanf("%lf", &valor);
