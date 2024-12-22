@@ -69,6 +69,8 @@ void converterVolume(){
     //converter Metros Cubicos para Mililitro
     case 6:
     {
+        valor2 = valor1 * 1000000;
+        printf("%2f Metros Cubicos = %.2f Mililitros\n");
         break;  
     }
 
