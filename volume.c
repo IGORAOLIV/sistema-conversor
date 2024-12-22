@@ -34,29 +34,39 @@ void converterVolume(){
         break;
     }
         
-
+    //converter Litro para Metros Cubicos
     case 2:
     {
-      break;  
+        valor2 = valor1 / 1000;
+        printf("%.2f Litros = %.2f Metros Cubicos\n", valor1, valor2);
+        break;  
     }
-        
+
+    //converter Mililitro para Litro   
     case 3:
     {
       break;  
     }
+
+    //converter Mililitro para Metros Cubicos
     case 4:
     {
       break;  
     }
 
+    //converter Metros Cubicos para Litro
     case 5:
     {
       break;  
     }
+
+    //converter Metros Cubicos para Mililitro
     case 6:
     {
       break;  
     }
+
+    //Em caso de escolha de numeros diferentes das opções listadas
     default:
     printf("OPÇÃO INVALIDA! POR FAVOR, ESCOLHA UMA OPÇÃO ENTRE 1 E 6.\n");
         break;
