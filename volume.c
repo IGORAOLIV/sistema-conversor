@@ -45,13 +45,16 @@ void converterVolume(){
     //converter Mililitro para Litro   
     case 3:
     {
-      break;  
+        valor2 = valor1 / 1000;
+        printf("%.2f Mililitros = %.2f Litros\n", valor1, valor2);
+        break;  
     }
 
     //converter Mililitro para Metros Cubicos
     case 4:
     {
-      break;  
+        
+        break;  
     }
 
     //converter Metros Cubicos para Litro
