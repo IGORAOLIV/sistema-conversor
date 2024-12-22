@@ -21,6 +21,46 @@ void converterVolume(){
     printf("Digite o valor a ser convertido: ");
     double valor1, valor2;
     scanf("%lf", &valor1);
-    
+
+    // Processamento da opção escolhida para a conversão
+    switch (opcao)
+    {
+        //converter Litro para mililitro
+    case 1:
+    {
+        valor2 = valor1 * 1000;
+        printf("%.2f Litros = %.2f Mililitros\n", valor1, valor2);
+
+        break;
+    }
+        
+
+    case 2:
+    {
+      break;  
+    }
+        
+    case 3:
+    {
+      break;  
+    }
+    case 4:
+    {
+      break;  
+    }
+
+    case 5:
+    {
+      break;  
+    }
+    case 6:
+    {
+      break;  
+    }
+    default:
+    printf("OPÇÃO INVALIDA! POR FAVOR, ESCOLHA UMA OPÇÃO ENTRE 1 E 6.\n");
+        break;
+    }
+
 
 }
