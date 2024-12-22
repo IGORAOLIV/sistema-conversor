@@ -65,7 +65,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
 
                         case 3:
                             loop2 = 0;
-                            printf("\n");
+                            system("cls");
                             break;
                         
                         default:
@@ -122,7 +122,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                         
                         case 3:
                             loop2 = 0;
-                            printf("\n");
+                            system("cls");
                             break;
 
                         default:
@@ -180,7 +180,7 @@ void converterTemperatura(){    //Função para converter a temperatura que o us
                         
                         case 3:
                             loop2 = 0;
-                            printf("\n");
+                            system("cls");
                             break;
 
                         default:
