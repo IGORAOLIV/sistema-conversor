@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+menu.test.h
+NULL
+
 # Object files
 *.o
 *.ko
@@ -50,3 +53,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+output/NULL
