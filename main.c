@@ -3,7 +3,12 @@
 
 #include "temperatura.h"
 #include "comprimento.h"
-
+#include "conversorarea.h"
+#include "volume.h"
+#include "Bytes.h"
+#include "massa.h"
+#include "tempo.h"
+#include "velocidade.h"
 #include "menu.h"
 
 // Função principal
@@ -22,39 +27,42 @@ int main()
         switch (opcao)
         {
         case 1:
-            comprimento();
+            conversor_area();
             break;
         case 2:
-            printf("Funcionalidade de massa será implementada aqui.\n");
+            conversor_bytes();
             break;
         case 3:
-            printf("Funcionalidade de volume será implementada aqui.\n");
+            comprimento();
             break;
         case 4:
-            converterTemperatura();
+            converterMassa();
             break;
         case 5:
-            printf("Funcionalidade de velocidade será implementada aqui.\n");
+            converterTemperatura();
             break;
         case 6:
-            printf("Funcionalidade de bits & bytes será implementada aqui.\n");
+            converterTempo();
             break;
         case 7:
-            printf("Funcionalidade de área será implementada aqui.\n");
+            converterVelocidade();
             break;
         case 8:
+            converterVolume();
+            break;
+        case 9:
             printf("Saindo do programa. Até mais!\n");
             break;
         default:
             printf("Opção inválida. Tente novamente.\n");
         }
 
-        if (opcao != 8)
+        if (opcao != 9)
         {
             system("PAUSE");
         }
 
-    } while (opcao != 8);
+    } while (opcao != 9);
 
     return 0;
 }
