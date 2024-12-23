@@ -3,6 +3,12 @@
 
 #include "temperatura.h"
 #include "comprimento.h"
+#include "conversorarea.h"
+#include "volume.h"
+#include "Bytes.h"
+#include "massa.h"
+#include "tempo.h"
+#include "velocidade.h"
 
 #include "menu.h"
 
