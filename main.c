@@ -22,39 +22,42 @@ int main()
         switch (opcao)
         {
         case 1:
-            comprimento();
-            break;
-        case 2:
-            printf("Funcionalidade de massa será implementada aqui.\n");
-            break;
-        case 3:
-            printf("Funcionalidade de volume será implementada aqui.\n");
-            break;
-        case 4:
-            converterTemperatura();
-            break;
-        case 5:
-            printf("Funcionalidade de velocidade será implementada aqui.\n");
-            break;
-        case 6:
-            printf("Funcionalidade de bits & bytes será implementada aqui.\n");
-            break;
-        case 7:
             printf("Funcionalidade de área será implementada aqui.\n");
             break;
+        case 2:
+            printf("Funcionalidade de bytes será implementada aqui.\n");
+            break;
+        case 3:
+            comprimento();
+            break;
+        case 4:
+            printf("Funcionalidade de massa será implementada aqui.\n");
+            break;
+        case 5:
+            converterTemperatura();
+            break;
+        case 6:
+            printf("Funcionalidade de tempo será implementada aqui.\n");
+            break;
+        case 7:
+            printf("Funcionalidade de velocidade será implementada aqui.\n");
+            break;
         case 8:
+            printf("Funcionalidade de volume será implementada aqui.\n");
+            break;
+        case 9:
             printf("Saindo do programa. Até mais!\n");
             break;
         default:
             printf("Opção inválida. Tente novamente.\n");
         }
 
-        if (opcao != 8)
+        if (opcao != 9)
         {
             system("PAUSE");
         }
 
-    } while (opcao != 8);
+    } while (opcao != 9);
 
     return 0;
 }
