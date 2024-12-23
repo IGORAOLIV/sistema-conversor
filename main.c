@@ -9,7 +9,6 @@
 #include "massa.h"
 #include "tempo.h"
 #include "velocidade.h"
-
 #include "menu.h"
 
 // Função principal
@@ -28,28 +27,28 @@ int main()
         switch (opcao)
         {
         case 1:
-            printf("Funcionalidade de área será implementada aqui.\n");
+            conversor_area();
             break;
         case 2:
-            printf("Funcionalidade de bytes será implementada aqui.\n");
+            conversor_bytes();
             break;
         case 3:
             comprimento();
             break;
         case 4:
-            printf("Funcionalidade de massa será implementada aqui.\n");
+            converterMassa();
             break;
         case 5:
             converterTemperatura();
             break;
         case 6:
-            printf("Funcionalidade de tempo será implementada aqui.\n");
+            converterTempo();
             break;
         case 7:
-            printf("Funcionalidade de velocidade será implementada aqui.\n");
+            converterVelocidade();
             break;
         case 8:
-            printf("Funcionalidade de volume será implementada aqui.\n");
+            converterVolume();
             break;
         case 9:
             printf("Saindo do programa. Até mais!\n");
