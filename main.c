@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #include "temperatura.h"
+#include "comprimento.h"
+
 #include "menu.h"
 
 // Função principal
@@ -18,7 +21,7 @@ int main()
         switch (opcao)
         {
         case 1:
-            //comprimento();
+            comprimento();
             break;
         case 2:
             printf("Funcionalidade de massa será implementada aqui.\n");
@@ -43,6 +46,10 @@ int main()
             break;
         default:
             printf("Opção inválida. Tente novamente.\n");
+        }
+
+        if (opcao != 8)
+        {
             system("PAUSE");
         }
 
