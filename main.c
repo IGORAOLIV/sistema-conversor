@@ -1,27 +1,28 @@
 #include <stdio.h>
-//modifica aqui mais uma vez
+#include <stdlib.h>
 
+#include "temperatura.h"
+#include "comprimento.h"
+
+#include "menu.h"
 
 // Função principal
-int main() {
-    printf("Bem-vindo ao Conversor de Unidades!\n");
-    printf("Selecione uma opção para começar:\n");
-    // Exemplo de opções (a serem implementadas)
-    printf("1. Converter Comprimento\n");
-    printf("2. Converter Massa\n");
-    printf("3. Converter Volume\n");
-    printf("4. Converter Temperatura\n");
-    printf("5. Converter Velocidade\n");
-    printf("6. Converter Bits & Bytes\n");
-    printf("7. Converter Área\n");
-    printf("8. Sair\n");
+int main()
+{
+
+    system("chcp 65001 > NULL");
+
 
     int opcao;
-    scanf("%d", &opcao);
+    do
+    {
 
-    switch (opcao) {
+        opcao = menu();
+
+        switch (opcao)
+        {
         case 1:
-            printf("Funcionalidade de comprimento será implementada aqui.\n");
+            comprimento();
             break;
         case 2:
             printf("Funcionalidade de massa será implementada aqui.\n");
@@ -30,7 +31,7 @@ int main() {
             printf("Funcionalidade de volume será implementada aqui.\n");
             break;
         case 4:
-            printf("Funcionalidade de temperatura será implementada aqui.\n");
+            converterTemperatura();
             break;
         case 5:
             printf("Funcionalidade de velocidade será implementada aqui.\n");
@@ -43,9 +44,17 @@ int main() {
             break;
         case 8:
             printf("Saindo do programa. Até mais!\n");
-            return 0;
+            break;
         default:
             printf("Opção inválida. Tente novamente.\n");
-    }
+        }
+
+        if (opcao != 8)
+        {
+            system("PAUSE");
+        }
+
+    } while (opcao != 8);
+
     return 0;
 }
