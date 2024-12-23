@@ -27,7 +27,7 @@ void converterVolume(){
     case 1:
     {
         valor2 = valor1 * 1000;
-        printf("%.2f Litros = %.2f Mililitros\n", valor1, valor2);
+        printf("%.2lf Litros = %.2lf Mililitros\n", valor1, valor2);
 
         break;
     }
@@ -36,7 +36,7 @@ void converterVolume(){
     case 2:
     {
         valor2 = valor1 / 1000;
-        printf("%.2f Litros = %.2f Metros Cubicos\n", valor1, valor2);
+        printf("%.2lf Litros = %.2lf Metros Cubicos\n", valor1, valor2);
         break;  
     }
 
@@ -44,7 +44,7 @@ void converterVolume(){
     case 3:
     {
         valor2 = valor1 / 1000;
-        printf("%.2f Mililitros = %.2f Litros\n", valor1, valor2);
+        printf("%.2lf Mililitros = %.2lf Litros\n", valor1, valor2);
         break;  
     }
 
@@ -52,7 +52,7 @@ void converterVolume(){
     case 4:
     {
         valor2 = valor1 / 1000000;
-        printf("%.2f Mililitros = %.6f Metros Cubicos\n", valor1, valor2);
+        printf("%.2lf Mililitros = %.6lf Metros Cubicos\n", valor1, valor2);
         break;  
     }
 
@@ -60,7 +60,7 @@ void converterVolume(){
     case 5:
     {
         valor2 = valor1 * 1000;
-        printf("%.2f Metros Cubicos = %2f Litros\n", valor1, valor2);
+        printf("%.2lf Metros Cubicos = %2lf Litros\n", valor1, valor2);
         break;  
     }
 
@@ -68,7 +68,7 @@ void converterVolume(){
     case 6:
     {
         valor2 = valor1 * 1000000;
-        printf("%2f Metros Cubicos = %.2f Mililitros\n");
+        printf("%.2lf Metros Cubicos = %.2lf Mililitros\n", valor1, valor2);
         break;  
     }
 
