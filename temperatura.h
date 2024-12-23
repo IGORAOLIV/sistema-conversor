@@ -1,7 +1,7 @@
 //arquivo para definir função converterTemperatura()
 #ifndef TEMPERATURA_H
 #define TEMPERATURA_H
-#include <stdlib.h>
+
 
 void converterTemperatura(){    //Função para converter a temperatura que o usuário dá para temperatura que o usuário quer
     printf("\n");
