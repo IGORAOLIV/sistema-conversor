@@ -57,7 +57,7 @@ int main()
             printf("Opção inválida. Tente novamente.\n");
         }
 
-        if (opcao != 9)
+        if (opcao != 9 && opcao != 5)
         {
             system("PAUSE");
         }
