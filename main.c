@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "temperatura.c"
+
+#include "temperatura.h"
 #include "comprimento.h"
+
 #include "menu.h"
 
 // Função principal
