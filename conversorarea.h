@@ -1,3 +1,6 @@
+#ifndef AREA_H
+#define AREA_H
+
 #include <stdio.h>
 
 void mtocm (){ //função conversor metro quadrado para centimetro quadrado
@@ -35,7 +38,7 @@ void kmtom(){ //função conversor quilometro quadrado para metro quadrado
                 printf("%.2lf quilometros quadrados equivalem a %.2lf metros quadrados.\n\n", valor, resultado);
 }
 
-void menu() { //função menu para seleção de conversão
+void menu_area() { //função menu para seleção de conversão
     printf("Bem-vindo ao Conversor de Area!\n");
     printf("Escolha a conversao:\n");
     printf("1. Metros quadrados para Centimetros quadrados\n");
@@ -50,7 +53,7 @@ int conversor_area() {
     int escolha;
 
     do {
-        menu();
+        menu_area();
         scanf("%d", &escolha);
 
         switch (escolha) {
@@ -77,4 +80,5 @@ int conversor_area() {
 
     return 0;
 }
- 
+
+ #endif
